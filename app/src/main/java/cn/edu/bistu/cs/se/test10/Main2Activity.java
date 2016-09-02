@@ -22,7 +22,7 @@ public class Main2Activity extends AppCompatActivity {
         Intent intent=getIntent();
         String name=intent.getStringExtra("name");
         Integer age=intent.getIntExtra("age", 19);
-        Toast.makeText(this,name +  age,Toast.LENGTH_LONG).show();
+        Toast.makeText(this, name + "   " + age, Toast.LENGTH_LONG).show();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
